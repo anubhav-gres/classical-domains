@@ -12,3 +12,8 @@ to install (i.e., clone) this repository. Not only will
 it fetch the latest and update the repository if you wish,
 but it will point the local API to the correct directory
 for the domains.
+
+Fork NOTE :
+- The directory "classical_fixed" contains fixes to PDDL syntax for compatibility with Tarski parser
+- The directory "classical" is the original clone
+
