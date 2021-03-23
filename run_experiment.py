@@ -128,23 +128,20 @@ def setup_exp_run(args, exp, algo, dfile, pfile, bname, domain, problem):
     run         =   exp.add_run()
     solver      =   algo.strip().split()
     solver[0]   =   abspath(solver[0])
-    if re.match( r'fast-downward\d*\.py' , basename(solver[0])) :
-        solver.extend(['--plan-file', args.PLAN_FILE,abspath(dfile), abspath(pfile)])
-    elif (re.match( r'bfws.py' , basename(solver[0])) or
-            re.match( r'bfws_ste.py' , basename(solver[0]))) :
-        solver.extend(['--domain', abspath(dfile),
-                '--problem', abspath(pfile),
-                '--plan_file',args.PLAN_FILE])
+    # POPF/OPTIC (KCL)
+    if (re.match( r'popf2' , basename(solver[0])) 
+        or re.match( r'optic' , basename(solver[0]))): 
+        solver.extend([args.PLAN_FILE,abspath(dfile), abspath(pfile)])
+    # TPSHE (Aig-upf)
+    elif (re.match( r'plan.py' , basename(solver[0]))):
+        solver.extend(['--plan_file',args.PLAN_FILE, abspath(dfile),
+                abspath(pfile)])
+    elif (re.match( r'cpt' , basename(solver[0]))): :
+        solver.extend(['-o', abspath(dfile),
+                '--f', abspath(pfile),
+                '--H',args.PLAN_FILE])
     else :
-        if config.get('PARSER',{}).get(domain, None) :
-            solver.extend(['--domain', abspath(dfile),
-                    '--problem', abspath(pfile),
-                    '--plan_file', args.PLAN_FILE,
-                    '--lapkt_instance_generator', config['PARSER'][domain]])
-        else :
-            solver.extend(['--domain', abspath(dfile),
-                    '--problem', abspath(pfile),
-                    '--plan_file',args.PLAN_FILE])
+        raise ValueError("Planner name not recognized")
     #print(solver)
     #print('command: ',solver)
     run.add_command('solve',solver,

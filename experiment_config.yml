@@ -4,28 +4,16 @@
 # Paths must be specified either as absolute paths or relative to 'run_experiments.py'
 
 SOLVERS: # must be specified as a list of executables with necessary args
-  - '../release/lapkt.py BFWS'
-      #- '../release/lapkt.py AT_LAPKT_Planner'
-      #- '../release/lapkt.py AT_BFS_f_Planner'
-      #- '../release/lapkt.py BFS_f_Planner'
-      #- '../release/lapkt.py BRFS_Planner'
-      #- '../release/lapkt.py DFIW_Planner'
-      #- '../release/lapkt.py DFSIW_Planner'
-      #- '../release/lapkt.py DFS_Plus_Planner'
-      #- '../release/lapkt.py IW_Planner'
-      #- '../release/lapkt.py RPIW_Planner'
-      #- '../release/lapkt.py SIW_Planner'
-      #- '../release/lapkt.py SIW_Plus_Planner'
-      #- '../release/lapkt.py SIW_PLUS_BFS_F_Planner'
+  #- '../release/lapkt.py BFWS'
 NUM_PROC: null #null->use all cpus
 #PLIST_YML is the path to the yml file with pddl problem database
-PLIST_YML: './classical_fixed/plist.yml' # path must be specified
+PLIST_YML: './temporal/plist.yml' # path must be specified
 BNAME: null # null->All benchmarks
-DNAME: # null->All domains
-  'blocks': 
-    'IPC1998-2004'
-  'visitall-sat11-strips':
-    'IPC-2011'
+DNAME: null # ->All domains
+  #'blocks': 
+  #  'IPC-2018'
+  #'visitall-sat11-strips':
+  #  'IPC-2018'
 PNAME: null # null->All instances
 PLAN_FILE: 'plan.ipc' # name must be specified
 # if a problem in PLIST_YML no tag assigned then it is NOT filtered out
@@ -34,8 +22,8 @@ TAGS: # null->All(no filtering on TAGs)
   #- 'OPT' 
 VALIDATE: '../release/bin/validate' # null->No validation
 EXP_DIR: './data' # path to output dir must be specified
-EXP_NAME: 'Classical_Runs' # string must be specified
+EXP_NAME: 'Temporal_Runs' # string must be specified
 TIME_LIMIT: 1800 #seconds
-MEMORY_LIMIT: 2048 #MB
-PARSER: # List of DNAME and Parser(Tarski/FD/FF), default used for any domain not specified
-  storage: 'FD'
+MEMORY_LIMIT: 8096 #MB
+PARSER: null # List of DNAME and Parser(Tarski/FD/FF), default used for any domain not specified
+ 
