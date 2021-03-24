@@ -101,7 +101,8 @@ def fetch_props(content, props):
         props['is_plan_valid'] = False
     # Optimality not guaranteed. Solver exceeded time and exited prematurely
     if (re.search(r'caught signal 24 -- exiting', content) or
-           not props['is_plan_valid'] or props['solver_exit_code']!=0) :
+           not props['is_plan_valid'] or props['solver_exit_code']!=0 or
+           props['time_limit'] <= props['runtime_total']) :
         props['is_plan_optimal'] = False
     else:
         props['is_plan_optimal'] = True
@@ -121,6 +122,8 @@ def parse_plan(content, props) :
 #xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx#
 
 parser = Parser()
+parser.add_pattern('time_limit', r'time_limit=(\d*)', 
+        type=int, file='run')
 parser.add_pattern('solver_exit_code', r'solve exit code: (.+)\n', 
         type=int, file='driver.log')
 parser.add_pattern('validate_exit_code', r'validate exit code: (.+)\n', 

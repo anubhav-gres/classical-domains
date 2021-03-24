@@ -131,7 +131,7 @@ def setup_exp_run(args, exp, algo, dfile, pfile, bname, domain, problem):
     # POPF/OPTIC (KCL)
     if (re.match( r'popf2' , basename(solver[0])) 
         or re.match( r'optic' , basename(solver[0]))): 
-        solver.extend([args.PLAN_FILE,abspath(dfile), abspath(pfile)])
+        solver.extend([abspath(dfile), abspath(pfile), args.PLAN_FILE])
     # TPSHE (Aig-upf)
     elif (re.match( r'plan.py' , basename(solver[0]))):
         solver.extend(['--plan-file',args.PLAN_FILE, abspath(dfile),

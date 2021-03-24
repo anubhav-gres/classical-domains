@@ -122,3 +122,375 @@ quantum_circuit:
       problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/quantum_circuit/18/problem_n40_i18_u1.0_P1_V2.pddl
       problem_file: ipc2018/quantum_circuit/18/problem_n40_i18_u1.0_P1_V2.pddl
       tag: 'null'
+floortile:
+  ? - IPC-2018
+  : p01:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p442-1.pddl
+      problem_file: ipc2018/Floortile/p442-1.pddl
+      tag: 'null'
+    p02:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p442-4.pddl
+      problem_file: ipc2018/Floortile/p442-4.pddl
+      tag: 'null'
+    p03:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p442-5.pddl
+      problem_file: ipc2018/Floortile/p442-5.pddl
+      tag: 'null'
+    p04:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p443-2.pddl
+      problem_file: ipc2018/Floortile/p443-2.pddl
+      tag: 'null'
+    p05:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p443-3.pddl
+      problem_file: ipc2018/Floortile/p443-3.pddl
+      tag: 'null'
+    p06:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p552-2.pddl
+      problem_file: ipc2018/Floortile/p552-2.pddl
+      tag: 'null'
+    p07:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p552-4.pddl
+      problem_file: ipc2018/Floortile/p552-4.pddl
+      tag: 'null'
+    p08:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p553-1.pddl
+      problem_file: ipc2018/Floortile/p553-1.pddl
+      tag: 'null'
+    p09:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p553-3.pddl
+      problem_file: ipc2018/Floortile/p553-3.pddl
+      tag: 'null'
+    p10:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/domain.pddl
+      domain_file: ipc2018/Floortile/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Floortile/p553-5.pddl
+      problem_file: ipc2018/Floortile/p553-5.pddl
+      tag: 'null'
+mapanalyser:
+  ? - IPC-2018
+  : p01:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile3-4-2-0-1.pddl
+      problem_file: ipc2018/Mapanalyser/pfile3-4-2-0-1.pddl
+      tag: 'null'
+    p02:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile3-4-2-0-3.pddl
+      problem_file: ipc2018/Mapanalyser/pfile3-4-2-0-3.pddl
+      tag: 'null'
+    p03:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile5-2-2-0-2.pddl
+      problem_file: ipc2018/Mapanalyser/pfile5-2-2-0-2.pddl
+      tag: 'null'
+    p04:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile5-2-3-0-1.pddl
+      problem_file: ipc2018/Mapanalyser/pfile5-2-3-0-1.pddl
+      tag: 'null'
+    p05:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile5-2-3-0-2.pddl
+      problem_file: ipc2018/Mapanalyser/pfile5-2-3-0-2.pddl
+      tag: 'null'
+    p06:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile5-3-2-0-1.pddl
+      problem_file: ipc2018/Mapanalyser/pfile5-3-2-0-1.pddl
+      tag: 'null'
+    p07:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile5-3-2-0-3.pddl
+      problem_file: ipc2018/Mapanalyser/pfile5-3-2-0-3.pddl
+      tag: 'null'
+    p08:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile5-3-3-0-3.pddl
+      problem_file: ipc2018/Mapanalyser/pfile5-3-3-0-3.pddl
+      tag: 'null'
+    p09:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile5-5-2-0-2.pddl
+      problem_file: ipc2018/Mapanalyser/pfile5-5-2-0-2.pddl
+      tag: 'null'
+    p10:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/domain.pddl
+      domain_file: ipc2018/Mapanalyser/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Mapanalyser/pfile5-5-3-0-1.pddl
+      problem_file: ipc2018/Mapanalyser/pfile5-5-3-0-1.pddl
+      tag: 'null'
+parking:
+  ? - IPC-2018
+  : p01:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p15-9-3.pddl
+      problem_file: ipc2018/Parking/p15-9-3.pddl
+      tag: 'null'
+    p02:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p16-10-2.pddl
+      problem_file: ipc2018/Parking/p16-10-2.pddl
+      tag: 'null'
+    p03:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p16-10-3.pddl
+      problem_file: ipc2018/Parking/p16-10-3.pddl
+      tag: 'null'
+    p04:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p18-11-2.pddl
+      problem_file: ipc2018/Parking/p18-11-2.pddl
+      tag: 'null'
+    p05:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p20-12-1.pddl
+      problem_file: ipc2018/Parking/p20-12-1.pddl
+      tag: 'null'
+    p06:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p20-12-3.pddl
+      problem_file: ipc2018/Parking/p20-12-3.pddl
+      tag: 'null'
+    p07:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p22-13-2.pddl
+      problem_file: ipc2018/Parking/p22-13-2.pddl
+      tag: 'null'
+    p08:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p24-14-1.pddl
+      problem_file: ipc2018/Parking/p24-14-1.pddl
+      tag: 'null'
+    p09:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p24-14-2.pddl
+      problem_file: ipc2018/Parking/p24-14-2.pddl
+      tag: 'null'
+    p10:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/domain.pddl
+      domain_file: ipc2018/Parking/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/Parking/p26-15-1.pddl
+      problem_file: ipc2018/Parking/p26-15-1.pddl
+      tag: 'null'
+road-traffic-accident:
+  ? - IPC-2018
+  : p03:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-3.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-3.pddl
+      tag: 'null'
+    p04:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-4.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-4.pddl
+      tag: 'null'
+    p07:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-7.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-7.pddl
+      tag: 'null'
+    p08:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-8.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-8.pddl
+      tag: 'null'
+    p11:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-11.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-11.pddl
+      tag: 'null'
+    p13:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-13.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-13.pddl
+      tag: 'null'
+    p15:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-15.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-15.pddl
+      tag: 'null'
+    p16:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-16.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-16.pddl
+      tag: 'null'
+    p19:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-19.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-19.pddl
+      tag: 'null'
+    p20:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/domain.pddl
+      domain_file: ipc2018/road-traffic-accident/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/road-traffic-accident/instance-20.pddl
+      problem_file: ipc2018/road-traffic-accident/instance-20.pddl
+      tag: 'null'
+sokoban:
+  ? - IPC-2018
+  : p02:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-2.pddl
+      problem_file: ipc2018/sokoban/instance-2.pddl
+      tag: 'null'
+    p05:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-5.pddl
+      problem_file: ipc2018/sokoban/instance-5.pddl
+      tag: 'null'
+    p07:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-7.pddl
+      problem_file: ipc2018/sokoban/instance-7.pddl
+      tag: 'null'
+    p09:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-9.pddl
+      problem_file: ipc2018/sokoban/instance-9.pddl
+      tag: 'null'
+    p11:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-11.pddl
+      problem_file: ipc2018/sokoban/instance-11.pddl
+      tag: 'null'
+    p12:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-12.pddl
+      problem_file: ipc2018/sokoban/instance-12.pddl
+      tag: 'null'
+    p14:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-14.pddl
+      problem_file: ipc2018/sokoban/instance-14.pddl
+      tag: 'null'
+    p15:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-15.pddl
+      problem_file: ipc2018/sokoban/instance-15.pddl
+      tag: 'null'
+    p17:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-17.pddl
+      problem_file: ipc2018/sokoban/instance-17.pddl
+      tag: 'null'
+    p20:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/domain.pddl
+      domain_file: ipc2018/sokoban/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/sokoban/instance-20.pddl
+      problem_file: ipc2018/sokoban/instance-20.pddl
+      tag: 'null'
+trucks-time-strips:
+  ? - IPC-2018
+  : p02:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/2/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/2/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/2/instance-2.pddl
+      problem_file: ipc2018/trucks-time-strips/2/instance-2.pddl
+      tag: 'null'
+    p05:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/5/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/5/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/5/instance-5.pddl
+      problem_file: ipc2018/trucks-time-strips/5/instance-5.pddl
+      tag: 'null'
+    p06:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/6/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/6/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/6/instance-6.pddl
+      problem_file: ipc2018/trucks-time-strips/6/instance-6.pddl
+      tag: 'null'
+    p08:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/8/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/8/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/8/instance-8.pddl
+      problem_file: ipc2018/trucks-time-strips/8/instance-8.pddl
+      tag: 'null'
+    p09:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/9/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/9/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/9/instance-9.pddl
+      problem_file: ipc2018/trucks-time-strips/9/instance-9.pddl
+      tag: 'null'
+    p11:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/11/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/11/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/11/instance-11.pddl
+      problem_file: ipc2018/trucks-time-strips/11/instance-11.pddl
+      tag: 'null'
+    p13:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/13/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/13/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/13/instance-13.pddl
+      problem_file: ipc2018/trucks-time-strips/13/instance-13.pddl
+      tag: 'null'
+    p14:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/14/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/14/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/14/instance-14.pddl
+      problem_file: ipc2018/trucks-time-strips/14/instance-14.pddl
+      tag: 'null'
+    p16:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/16/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/16/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/16/instance-16.pddl
+      problem_file: ipc2018/trucks-time-strips/16/instance-16.pddl
+      tag: 'null'
+    p17:
+      domain_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/17/domain.pddl
+      domain_file: ipc2018/trucks-time-strips/17/domain.pddl
+      problem_url: https://bitbucket.org/ipc2018-temporal/domains/src/master/trucks-time-strips/17/instance-17.pddl
+      problem_file: ipc2018/trucks-time-strips/17/instance-17.pddl
+      tag: 'null'
