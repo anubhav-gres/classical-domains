@@ -3,38 +3,56 @@ common: # added to all solvers
   - algorithm
 #  - domain
 #  - problem
-
-others_uncommon: # for reference
-  - num_actions
-  - num_fluents
+cpt:
   - solver_exit_code
-  - plan_cost
-  - generated
-  - expanded
+  - runtime_solver
+  - runtime_total
+  - time_limit
   - memory
   - memory_limit
-  - runtime_parser
-  - runtime_solver
-  - runtime_total
-  - time_limit
   - run_dir
   - validate_exit_code
   - lab_exit_code
   - is_plan_valid
-
-SIW_PLUS_BFS_F_Planner:
-  - num_actions
-  - num_fluents
+  - makespan
+  - booleans
+  - conflicts
+  - branches
+  - propagations
+  - integer_propagations
+popf2:
   - solver_exit_code
-  - plan_cost
-  - generated
-  - expanded
-  - runtime_parser
   - runtime_solver
   - runtime_total
   - time_limit
+  - memory
+  - memory_limit
   - run_dir
   - validate_exit_code
   - lab_exit_code
   - is_plan_valid
-
+  - makespan
+optic:
+  - solver_exit_code
+  - runtime_solver
+  - runtime_total
+  - time_limit
+  - memory
+  - memory_limit
+  - run_dir
+  - validate_exit_code
+  - lab_exit_code
+  - is_plan_valid
+  - makespan
+plan.py:
+  - solver_exit_code
+  - runtime_solver
+  - runtime_total
+  - time_limit
+  - memory
+  - memory_limit
+  - run_dir
+  - validate_exit_code
+  - lab_exit_code
+  - is_plan_valid
+  - makespan

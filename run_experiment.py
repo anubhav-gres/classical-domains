@@ -134,12 +134,13 @@ def setup_exp_run(args, exp, algo, dfile, pfile, bname, domain, problem):
         solver.extend([args.PLAN_FILE,abspath(dfile), abspath(pfile)])
     # TPSHE (Aig-upf)
     elif (re.match( r'plan.py' , basename(solver[0]))):
-        solver.extend(['--plan_file',args.PLAN_FILE, abspath(dfile),
+        solver.extend(['--plan-file',args.PLAN_FILE, abspath(dfile),
                 abspath(pfile)])
-    elif (re.match( r'cpt' , basename(solver[0]))): :
+    # CPT-ORTOOLS
+    elif (re.match( r'cpt' , basename(solver[0]))): 
         solver.extend(['-o', abspath(dfile),
-                '--f', abspath(pfile),
-                '--H',args.PLAN_FILE])
+                '-f', abspath(pfile),
+                '-H',args.PLAN_FILE])
     else :
         raise ValueError("Planner name not recognized")
     #print(solver)
@@ -156,16 +157,11 @@ def setup_exp_run(args, exp, algo, dfile, pfile, bname, domain, problem):
     run.set_property('id', [basename(algo),".".join(bname),domain,
                             ".".join(basename(pfile).split('.')[:-1])] )
     if args.VALIDATE :
-        validate    =   [abspath(args.VALIDATE),]
+        validate    =   args.VALIDATE.strip().split()
+        validate[0] =   abspath(validate[0])
         validate.extend([abspath(dfile), abspath(pfile),args.PLAN_FILE])
         run.add_command('validate',validate,
             time_limit=args.TIME_LIMIT, memory_limit=args.MEMORY_LIMIT)
-
-    ### A HACK for Tarski unbound tmp file issue - to be removed
-    if isfile(CLR_TMP_PATH) :
-        run.add_command('clear_tmp',['sh', abspath(CLR_TMP_PATH),],
-            time_limit=args.TIME_LIMIT, memory_limit=args.MEMORY_LIMIT)
-    ### A HACK - to be removed
 
 with open(Path(args.PLIST_YML),'r') as pfile :
     problem_list = YAML(typ='safe').load(pfile)

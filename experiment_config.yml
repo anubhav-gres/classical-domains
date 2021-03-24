@@ -1,17 +1,18 @@
 # About: Configuration for run_experiment.py
 # These configuration will be overridden by corresponding command line args.
 
-# Paths must be specified either as absolute paths or relative to 'run_experiments.py'
+# IMP : Paths must be specified either as absolute paths or relative to 'run_experiments.py'
 
 SOLVERS: # must be specified as a list of executables with necessary args
-  #- '../release/lapkt.py BFWS'
+  - '../sat-cpt/bin/cpt'
+  - '../aig-upf-temporal/bin/plan.py she --no-validate'
 NUM_PROC: null #null->use all cpus
 #PLIST_YML is the path to the yml file with pddl problem database
 PLIST_YML: './temporal/plist.yml' # path must be specified
 BNAME: null # null->All benchmarks
-DNAME: null # ->All domains
-  #'blocks': 
-  #  'IPC-2018'
+DNAME: # null # ->All domains
+  'airport': 
+    'IPC-2018'
   #'visitall-sat11-strips':
   #  'IPC-2018'
 PNAME: null # null->All instances
@@ -20,10 +21,10 @@ PLAN_FILE: 'plan.ipc' # name must be specified
 #   and TAGS setting below has no effect
 TAGS: # null->All(no filtering on TAGs)
   #- 'OPT' 
-VALIDATE: '../release/bin/validate' # null->No validation
+VALIDATE: '../VAL/validate -t 0.0001' # null->No validation
 EXP_DIR: './data' # path to output dir must be specified
 EXP_NAME: 'Temporal_Runs' # string must be specified
-TIME_LIMIT: 1800 #seconds
+TIME_LIMIT: 10 #seconds
 MEMORY_LIMIT: 8096 #MB
 PARSER: null # List of DNAME and Parser(Tarski/FD/FF), default used for any domain not specified
  
