@@ -37,7 +37,6 @@ CONFIG_FILE         =   'experiment_config.yml'
 REPORT_HEADER_FILE  =   'report_header_config.yml'
 LOG_PARSER          =   'parser/lab_parser.py'
 CWD                 =   dirname(realpath(__file__))
-CLR_TMP_PATH        =   join(CWD, Path('clear_tmp.sh'))
 
 # Define path and local system parameters
 NODE            =   platform.node()
@@ -154,7 +153,7 @@ def setup_exp_run(args, exp, algo, dfile, pfile, bname, domain, problem):
     run.set_property('time_limit', args.TIME_LIMIT)
     run.set_property('memory_limit', args.MEMORY_LIMIT)
     run.set_property('coverage', 0)
-    run.set_property('id', [basename(algo),".".join(bname),domain,
+    run.set_property('id', [basename(algo), bname, domain,
                             ".".join(basename(pfile).split('.')[:-1])] )
     if args.VALIDATE :
         validate    =   args.VALIDATE.strip().split()
