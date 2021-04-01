@@ -28,7 +28,7 @@ def domain_as_category(run1, run2) :
 def get_attributes(header_config, algo) :
     attr =  []
     for k, l in header_config.items():
-        if k in algo.strip().split() :
+        if k in basename(algo).strip().split() :
             attr =  header_config['common'] + l
             break
     return attr

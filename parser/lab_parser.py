@@ -52,6 +52,13 @@ def fetch_props(content, props):
     ========
     dict - properties attribute values in a 'dict'
     """
+    # Number of Actions
+    x   =   re.search(r'#Actions: (\d*)', content)
+    props['num_actions']    =   int(x.group(1)) if x else None
+
+    # Number of Fluents
+    x   =   re.search(r'#Fluents: (\d*)', content)
+    props['num_fluents']    =   int(x.group(1)) if x else None
 
     # Number of Booleans
     x   =   re.search(r'booleans: (\d*)', content)
@@ -100,9 +107,8 @@ def fetch_props(content, props):
     else:
         props['is_plan_valid'] = False
     # Optimality not guaranteed. Solver exceeded time and exited prematurely
-    if (re.search(r'caught signal 24 -- exiting', content) or
-           not props['is_plan_valid'] or props['solver_exit_code']!=0 or
-           props['time_limit'] <= props['runtime_total']) :
+    if (not props['is_plan_valid'] or props['solver_exit_code']!=0 or
+            props['time_limit'] <= props['runtime_total']):
         props['is_plan_optimal'] = False
     else:
         props['is_plan_optimal'] = True
@@ -124,6 +130,8 @@ def parse_plan(content, props) :
 parser = Parser()
 parser.add_pattern('time_limit', r'time_limit=(\d*)', 
         type=int, file='run')
+parser.add_pattern('ort_variables', r'#Variables: (\d*)', 
+        type=int, file='run.err')
 parser.add_pattern('solver_exit_code', r'solve exit code: (.+)\n', 
         type=int, file='driver.log')
 parser.add_pattern('validate_exit_code', r'validate exit code: (.+)\n', 

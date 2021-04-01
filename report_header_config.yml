@@ -4,22 +4,26 @@ common: # added to all solvers
 #  - domain
 #  - problem
 cpt:
+  - num_fluents
+  - num_actions
+  - ort_variables
   - solver_exit_code
   - runtime_solver
   - runtime_total
   - time_limit
   - memory
   - memory_limit
-  - run_dir
-  - validate_exit_code
-  - lab_exit_code
   - is_plan_valid
+  - is_plan_found
+  - is_plan_optimal
   - makespan
   - booleans
   - conflicts
   - branches
   - propagations
   - integer_propagations
+  - validate_exit_code
+  - run_dir
 popf2:
   - solver_exit_code
   - runtime_solver
@@ -27,11 +31,12 @@ popf2:
   - time_limit
   - memory
   - memory_limit
-  - run_dir
-  - validate_exit_code
-  - lab_exit_code
   - is_plan_valid
+  - is_plan_found
+  - is_plan_optimal
   - makespan
+  - validate_exit_code
+  - run_dir
 optic:
   - solver_exit_code
   - runtime_solver
@@ -39,11 +44,12 @@ optic:
   - time_limit
   - memory
   - memory_limit
-  - run_dir
-  - validate_exit_code
-  - lab_exit_code
   - is_plan_valid
+  - is_plan_found
+  - is_plan_optimal
   - makespan
+  - validate_exit_code
+  - run_dir
 plan.py:
   - solver_exit_code
   - runtime_solver
@@ -51,8 +57,9 @@ plan.py:
   - time_limit
   - memory
   - memory_limit
-  - run_dir
-  - validate_exit_code
-  - lab_exit_code
   - is_plan_valid
+  - is_plan_found
+  - is_plan_optimal
   - makespan
+  - validate_exit_code
+  - run_dir
